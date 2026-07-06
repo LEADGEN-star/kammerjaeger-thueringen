@@ -1,16 +1,8 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "entruempelung-thueringen",
+  "name": "kammerjaeger-thueringen",
   "compatibility_date": "2026-05-20",
-  "observability": {
-    "enabled": true
-  },
-  "main": "worker.js",
   "assets": {
-    "directory": ".",
-    "binding": "ASSETS"
-  },
-  "compatibility_flags": [
-    "nodejs_compat"
-  ]
+    "directory": "./"
+  }
 }
